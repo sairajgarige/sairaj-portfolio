@@ -281,16 +281,46 @@ button { font: inherit; }
 .achievement-card h3 { margin-block: 15px 8px; font-size: 1.05rem; }
 .achievement-card p { font-size: .85rem; }
 
-.contact-panel {
-  text-align: center;
-  padding: 55px 25px;
-  border: 1px solid var(--border);
-  border-radius: 24px;
-  background: radial-gradient(ellipse at top, color-mix(in srgb, var(--accent) 13%, var(--surface)), var(--surface));
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
 }
-.contact-panel h2 { font-size: clamp(1.9rem, 4vw, 2.8rem); letter-spacing: -1px; }
-.contact-panel > p:not(.eyebrow) { max-width: 590px; margin: 14px auto 24px; }
-.contact-socials { justify-content: center; }
+
+.contact-card {
+    max-width: 850px;
+    margin: auto;
+    padding: 35px 25px;
+    border-radius: 15px;
+    background: linear-gradient(120deg, #edf3ff, #e9fbf4);
+}
+
+.contact-card p {
+    margin-bottom: 25px;
+    line-height: 1.8;
+    color: #52617a;
+    font-size: 16px;
+}
+
+.contact-card a {
+    color: #6254ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.email-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 25px;
+    border-radius: 12px;
+    background: linear-gradient(120deg, #6254ff, #8135e8);
+    color: white !important;
+    transition: 0.3s;
+}
+
+.email-button:hover {
+    transform: translateY(-3px);
+}
+
 
 .footer {
   border-top: 1px solid var(--border);
